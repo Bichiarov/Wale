@@ -4,289 +4,255 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wale Solutte | Automação Comercial</title>
-  <meta name="description" content="Wale Solutte Automação Comercial: soluções para PDV, gestão, estoque, relatórios, integrações, implantação e suporte técnico.">
-  <meta name="theme-color" content="#020305">
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-  <link rel="preload" as="image" href="assets/img/wale-solutte-logo.jpeg">
+  <meta name="description" content="Wale Solutte Automação Comercial: soluções completas para gestão, vendas, estoque, integrações e suporte técnico.">
+  <meta name="theme-color" content="#03070d">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <header class="site-header" id="topo">
+  <div class="page-bg"></div>
+
+  <header class="site-header" id="inicio">
     <div class="container header-inner">
-      <a class="brand" href="#inicio" aria-label="Wale Solutte - página inicial">
+      <a href="#inicio" class="header-logo" aria-label="Wale Solutte - Início">
         <img src="assets/img/wale-solutte-logo.jpeg" alt="Wale Solutte Automação Comercial">
       </a>
 
-      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
-        <a href="#inicio">Início</a>
-        <a href="#solucoes">Soluções</a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Menu principal">
+        <a class="active" href="#inicio">Início</a>
+        <a class="has-arrow" href="#solucoes">Soluções</a>
         <a href="#segmentos">Segmentos</a>
         <a href="#sobre">Sobre</a>
         <a href="#contato">Contato</a>
       </nav>
 
-      <a class="btn btn-primary header-cta js-whatsapp" href="#contato" aria-label="Falar no WhatsApp">
-        <span class="icon-whatsapp" aria-hidden="true"></span>
+      <a href="#contato" class="btn-whatsapp js-whatsapp" aria-label="Fale no WhatsApp">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.1 4.9A9.94 9.94 0 0 0 12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.6 1.4 5.1L2 22l5.1-1.4A10 10 0 1 0 19.1 4.9ZM12 20a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20Zm4.4-5.6c-.2-.1-1.2-.6-1.4-.7s-.3-.1-.5.1c-.1.2-.5.7-.6.8s-.2.1-.4 0a6.54 6.54 0 0 1-1.9-1.2 7.2 7.2 0 0 1-1.3-1.6c-.1-.2 0-.3.1-.4l.3-.3c.1-.1.1-.2.2-.3.1-.1 0-.3 0-.4 0-.1-.5-1.3-.7-1.7-.2-.4-.3-.4-.5-.4h-.4c-.1 0-.4.1-.6.3s-.8.8-.8 1.9.8 2.2.9 2.3c.1.2 1.6 2.5 3.9 3.4.5.2.9.4 1.3.5.5.1.9.1 1.2.1.4-.1 1.2-.5 1.4-1 .2-.5.2-1 .2-1.1 0-.1-.2-.2-.4-.3Z"></path></svg>
         Fale no WhatsApp
       </a>
-
-      <button class="menu-button" id="menuButton" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
-        <span></span><span></span><span></span>
-      </button>
     </div>
   </header>
 
   <main>
-    <section class="hero section-shell" id="inicio">
+    <section class="hero-section">
       <div class="container hero-grid">
-        <div class="hero-content reveal">
+        <div class="hero-left">
           <img class="hero-logo" src="assets/img/wale-solutte-logo.jpeg" alt="Wale Solutte Automação Comercial">
-          <p class="eyebrow">Tecnologia, controle e suporte para o comércio vender melhor</p>
-          <h1>Automação comercial <span>inteligente</span> para o seu negócio.</h1>
-          <p class="hero-text">Soluções completas para PDV, gestão, estoque, relatórios e integrações. Tudo com implantação organizada, atendimento próximo e foco em resultado.</p>
+
+          <h1>
+            <span class="line-white">AUTOMAÇÃO COMERCIAL</span>
+            <span class="line-blue">INTELIGENTE</span>
+            <span class="line-light">PARA O SEU NEGÓCIO</span>
+          </h1>
+
+          <p class="hero-copy">Soluções completas para gestão, vendas, controle e estoque.<br>Mais eficiência, mais resultados e total suporte para você crescer.</p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary js-whatsapp" href="#contato"><span class="icon-whatsapp" aria-hidden="true"></span> Fale no WhatsApp</a>
-            <a class="btn btn-secondary" href="#solucoes">Conheça as soluções</a>
-          </div>
-
-          <div class="trust-strip" aria-label="Diferenciais da Wale Solutte">
-            <div><strong>PDV</strong><small>frente de caixa ágil</small></div>
-            <div><strong>Estoque</strong><small>controle atualizado</small></div>
-            <div><strong>Suporte</strong><small>atendimento especializado</small></div>
+            <a href="#contato" class="btn-primary js-whatsapp">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.1 4.9A9.94 9.94 0 0 0 12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.6 1.4 5.1L2 22l5.1-1.4A10 10 0 1 0 19.1 4.9ZM12 20a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20Zm4.4-5.6c-.2-.1-1.2-.6-1.4-.7s-.3-.1-.5.1c-.1.2-.5.7-.6.8s-.2.1-.4 0a6.54 6.54 0 0 1-1.9-1.2 7.2 7.2 0 0 1-1.3-1.6c-.1-.2 0-.3.1-.4l.3-.3c.1-.1.1-.2.2-.3.1-.1 0-.3 0-.4 0-.1-.5-1.3-.7-1.7-.2-.4-.3-.4-.5-.4h-.4c-.1 0-.4.1-.6.3s-.8.8-.8 1.9.8 2.2.9 2.3c.1.2 1.6 2.5 3.9 3.4.5.2.9.4 1.3.5.5.1.9.1 1.2.1.4-.1 1.2-.5 1.4-1 .2-.5.2-1 .2-1.1 0-.1-.2-.2-.4-.3Z"></path></svg>
+              Fale no WhatsApp
+            </a>
+            <a href="#solucoes" class="btn-secondary">Conheça as soluções <span>›</span></a>
           </div>
         </div>
 
-        <div class="hero-visual reveal" aria-label="Ilustração de automação comercial">
-          <div class="orbital orbital-one"></div>
-          <div class="orbital orbital-two"></div>
-          <div class="pos-stage">
-            <div class="scanner"></div>
-            <div class="screen">
-              <div class="screen-bar"></div>
-              <div class="screen-row active"></div>
-              <div class="screen-row"></div>
-              <div class="screen-row short"></div>
-              <div class="screen-cards"><span></span><span></span><span></span></div>
-            </div>
-            <div class="printer"><span></span></div>
-            <div class="drawer"><span></span></div>
-          </div>
+        <div class="hero-right" aria-hidden="true">
+          <img src="assets/img/hero-pos.png" alt="">
         </div>
       </div>
     </section>
 
-    <section class="solutions section-shell" id="solucoes">
-      <div class="container">
-        <div class="section-title reveal">
-          <p class="eyebrow">Soluções Wale Solutte</p>
-          <h2>Automação comercial completa, do caixa à gestão.</h2>
-          <p>Uma estrutura pensada para simplificar a rotina, reduzir falhas e dar mais controle ao empresário.</p>
-        </div>
-
-        <div class="solution-grid">
-          <article class="solution-card reveal">
-            <div class="icon-box">PDV</div>
-            <h3>PDV e frente de caixa</h3>
-            <p>Venda rápida, operação intuitiva, controle de caixa e rotina preparada para o dia a dia do comércio.</p>
-          </article>
-          <article class="solution-card reveal">
-            <div class="icon-box">GC</div>
-            <h3>Gestão comercial</h3>
-            <p>Organização de produtos, clientes, vendas, relatórios e informações importantes para tomada de decisão.</p>
-          </article>
-          <article class="solution-card reveal">
-            <div class="icon-box">ETQ</div>
-            <h3>Controle de estoque</h3>
-            <p>Acompanhe entradas, saídas, perdas e movimentações para vender com segurança e comprar melhor.</p>
-          </article>
-          <article class="solution-card reveal">
-            <div class="icon-box">BI</div>
-            <h3>Relatórios e indicadores</h3>
-            <p>Dados claros sobre vendas, produtos e desempenho para enxergar oportunidades e corrigir perdas.</p>
-          </article>
-          <article class="solution-card reveal">
-            <div class="icon-box">API</div>
-            <h3>Integrações</h3>
-            <p>Conecte soluções de venda, delivery, emissão fiscal e outros recursos para uma operação mais prática.</p>
-          </article>
-          <article class="solution-card reveal">
-            <div class="icon-box">SUP</div>
-            <h3>Suporte técnico</h3>
-            <p>Atendimento próximo, orientação na operação e suporte especializado para manter sua empresa rodando.</p>
-          </article>
-        </div>
+    <section class="feature-strip" id="solucoes">
+      <div class="container feature-wrap">
+        <article class="feature-item">
+          <div class="icon-circle"> 
+            <svg viewBox="0 0 24 24"><path d="M4 5h16v11H4zM2 18h20M9 21h6"/></svg>
+          </div>
+          <div><h3>PDV</h3><p>Interface visual rápida<br>e intuitiva.</p></div>
+        </article>
+        <article class="feature-item">
+          <div class="icon-circle">
+            <svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V5M16 20v-8M22 20V3M3 21h20M6 8l4-3 6 3 5-4"/></svg>
+          </div>
+          <div><h3>GESTÃO COMERCIAL</h3><p>Dados e desempenho do<br>seu negócio.</p></div>
+        </article>
+        <article class="feature-item">
+          <div class="icon-circle">
+            <svg viewBox="0 0 24 24"><path d="M12 2 3 7l9 5 9-5-9-5Zm-9 5v10l9 5 9-5V7M12 12v10"/></svg>
+          </div>
+          <div><h3>CONTROLE DE ESTOQUE</h3><p>Estoque inteligente e<br>sempre atualizado.</p></div>
+        </article>
+        <article class="feature-item">
+          <div class="icon-circle">
+            <svg viewBox="0 0 24 24"><path d="M12 3v9l6 6M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18Z"/></svg>
+          </div>
+          <div><h3>RELATÓRIOS</h3><p>Informações em tempo real<br>para decisões melhores.</p></div>
+        </article>
+        <article class="feature-item">
+          <div class="icon-circle">
+            <svg viewBox="0 0 24 24"><path d="M7 7h.01M17 7h.01M12 17h.01M7 7l5 10M17 7l-5 10M7 7h10"/></svg>
+          </div>
+          <div><h3>INTEGRAÇÕES</h3><p>Soluções integradas com<br>mais praticidade.</p></div>
+        </article>
+        <article class="feature-item">
+          <div class="icon-circle">
+            <svg viewBox="0 0 24 24"><path d="M4 13v-2a8 8 0 0 1 16 0v2M6 13h12v6H6zM12 19v2"/></svg>
+          </div>
+          <div><h3>SUPORTE TÉCNICO</h3><p>Atendimento rápido<br>e especializado.</p></div>
+        </article>
+        <article class="feature-item">
+          <div class="icon-circle">
+            <svg viewBox="0 0 24 24"><path d="M5 19c1.5-3 5-4.5 9.5-9L18 6l-4 3.5C9.5 14 8 17.5 5 19Zm0 0 2.5-2.5M14 10l4 4"/></svg>
+          </div>
+          <div><h3>IMPLANTAÇÃO</h3><p>Implantação ágil e<br>sem complicação.</p></div>
+        </article>
       </div>
     </section>
 
-    <section class="why section-shell" id="sobre">
+    <section class="why-section" id="sobre">
       <div class="container why-grid">
-        <div class="section-title align-left reveal">
-          <p class="eyebrow">Por que escolher a Wale Solutte?</p>
-          <h2>Mais do que sistema: parceria para o seu negócio evoluir.</h2>
-          <p>A Wale Solutte une tecnologia, implantação, acompanhamento e suporte para transformar a operação comercial em um processo mais simples, seguro e eficiente.</p>
-          <a class="btn btn-secondary" href="#contato">Solicitar atendimento</a>
+        <div class="section-heading narrow">
+          <h2>POR QUE ESCOLHER<br><span>A WALE SOLUTTE?</span></h2>
         </div>
 
-        <div class="benefit-list">
-          <div class="benefit reveal">
-            <span>01</span>
-            <div><h3>Implantação organizada</h3><p>Configuração, orientação e acompanhamento para começar com segurança.</p></div>
-          </div>
-          <div class="benefit reveal">
-            <span>02</span>
-            <div><h3>Operação mais eficiente</h3><p>Menos retrabalho, mais controle e mais produtividade na rotina.</p></div>
-          </div>
-          <div class="benefit reveal">
-            <span>03</span>
-            <div><h3>Suporte próximo</h3><p>Atendimento humano e especializado para resolver dúvidas e necessidades.</p></div>
-          </div>
-          <div class="benefit reveal">
-            <span>04</span>
-            <div><h3>Foco em resultado</h3><p>Ferramentas para acompanhar números, reduzir perdas e vender melhor.</p></div>
-          </div>
+        <div class="why-items">
+          <article class="why-item">
+            <div class="mini-icon"><svg viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.5 3 8 7 10 4-2 7-5.5 7-10V6l-7-3Zm-3 9 2 2 4-4"/></svg></div>
+            <div><h3>CONFIANÇA</h3><p>Soluções robustas e<br>seguras para o seu dia a dia.</p></div>
+          </article>
+          <article class="why-item">
+            <div class="mini-icon"><svg viewBox="0 0 24 24"><path d="M13 2 5 14h5l-1 8 10-14h-6l1-6Z"/></svg></div>
+            <div><h3>EFICIÊNCIA</h3><p>Processos automatizados<br>e mais produtividade.</p></div>
+          </article>
+          <article class="why-item">
+            <div class="mini-icon"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V5M16 20v-8M22 20V3M3 21h20M6 8l4-3 6 3 5-4"/></svg></div>
+            <div><h3>RESULTADOS</h3><p>Mais controle, menos perdas<br>e mais lucratividade.</p></div>
+          </article>
+          <article class="why-item">
+            <div class="mini-icon"><svg viewBox="0 0 24 24"><path d="M7.5 12a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Zm9 0a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7ZM3 20c0-2.5 2-4 4.5-4S12 17.5 12 20M12 20c0-2.5 2-4 4.5-4S21 17.5 21 20"/></svg></div>
+            <div><h3>PARCERIA</h3><p>Estamos ao seu lado para<br>evoluir juntos.</p></div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="segments section-shell" id="segmentos">
-      <div class="container">
-        <div class="section-title reveal">
-          <p class="eyebrow">Atendemos diversos segmentos</p>
-          <h2>Soluções para diferentes formatos de comércio.</h2>
-          <p>Do pequeno varejo a operações com atendimento rápido, a automação ajuda a padronizar processos e melhorar a gestão.</p>
+    <section class="segments-section" id="segmentos">
+      <div class="container segments-grid">
+        <div class="section-heading narrow">
+          <h2>ATENDEMOS<br><span>DIVERSOS SEGMENTOS</span></h2>
         </div>
 
-        <div class="segment-grid">
-          <article class="segment-card reveal"><span></span><h3>Restaurantes e bares</h3><p>Agilidade no atendimento, controle de mesas, comandas e gestão de produtos.</p></article>
-          <article class="segment-card reveal"><span></span><h3>Mercados e mercearias</h3><p>Controle de estoque, vendas, caixa e informações para reposição.</p></article>
-          <article class="segment-card reveal"><span></span><h3>Lojas e varejo</h3><p>Organização comercial, relatórios de venda e melhor acompanhamento do negócio.</p></article>
-          <article class="segment-card reveal"><span></span><h3>Conveniência</h3><p>Operação rápida, controle de caixa e produtividade para atendimento contínuo.</p></article>
+        <div class="segments-cards">
+          <article class="segment-card bg-restaurante">
+            <div class="segment-icon"><svg viewBox="0 0 24 24"><path d="M7 2v9M4 2v9M4 7h3M16 2v10M20 2v20"/></svg></div>
+            <div class="segment-text"><h3>RESTAURANTES</h3><p>Agilidade no atendimento<br>e controle total do seu cardápio.</p></div>
+          </article>
+          <article class="segment-card bg-mercado">
+            <div class="segment-icon"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.2 9h10.5l2-7H7.5M10 20a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm8 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/></svg></div>
+            <div class="segment-text"><h3>MERCADOS</h3><p>Gestão completa para<br>o seu supermercado.</p></div>
+          </article>
+          <article class="segment-card bg-lojas">
+            <div class="segment-icon"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8Zm3 0V6a4 4 0 0 1 8 0v2"/></svg></div>
+            <div class="segment-text"><h3>LOJAS</h3><p>Organização e eficiência<br>para o varejo.</p></div>
+          </article>
+          <article class="segment-card bg-conveniencia">
+            <div class="segment-icon"><svg viewBox="0 0 24 24"><path d="M4 9h16v11H4zM2 9l2-4h16l2 4M8 13h8"/></svg></div>
+            <div class="segment-text"><h3>CONVENIÊNCIA</h3><p>Praticidade e agilidade<br>24 horas por dia.</p></div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="process section-shell" id="processo">
-      <div class="container process-panel reveal">
-        <div>
-          <p class="eyebrow">Como funciona</p>
-          <h2>Da análise à operação, sem complicação.</h2>
-        </div>
-        <div class="process-steps">
-          <div><strong>1</strong><span>Entendemos sua operação</span></div>
-          <div><strong>2</strong><span>Indicamos a melhor solução</span></div>
-          <div><strong>3</strong><span>Implantamos e orientamos a equipe</span></div>
-          <div><strong>4</strong><span>Acompanhamos com suporte técnico</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="whatsapp-strip section-shell" aria-label="Canais de atendimento Wale Solutte">
-      <div class="container whatsapp-panel reveal">
-        <div class="whatsapp-panel-head">
-          <span class="whatsapp-badge"><span class="icon-whatsapp" aria-hidden="true"></span></span>
+    <section class="contact-highlight" id="contato">
+      <div class="container contact-panel">
+        <div class="contact-info-main">
+          <div class="big-whats">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.1 4.9A9.94 9.94 0 0 0 12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.6 1.4 5.1L2 22l5.1-1.4A10 10 0 1 0 19.1 4.9ZM12 20a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20Zm4.4-5.6c-.2-.1-1.2-.6-1.4-.7s-.3-.1-.5.1c-.1.2-.5.7-.6.8s-.2.1-.4 0a6.54 6.54 0 0 1-1.9-1.2 7.2 7.2 0 0 1-1.3-1.6c-.1-.2 0-.3.1-.4l.3-.3c.1-.1.1-.2.2-.3.1-.1 0-.3 0-.4 0-.1-.5-1.3-.7-1.7-.2-.4-.3-.4-.5-.4h-.4c-.1 0-.4.1-.6.3s-.8.8-.8 1.9.8 2.2.9 2.3c.1.2 1.6 2.5 3.9 3.4.5.2.9.4 1.3.5.5.1.9.1 1.2.1.4-.1 1.2-.5 1.4-1 .2-.5.2-1 .2-1.1 0-.1-.2-.2-.4-.3Z"></path></svg>
+          </div>
           <div>
-            <p class="eyebrow">Atendimento Wale Solutte</p>
-            <h2>WhatsApp com troca automática por horário.</h2>
-            <p>Durante o horário comercial, o atendimento direciona para Comercial / Suporte. Após as 18h, finais de semana e fora do horário, direciona para o Plantão.</p>
+            <h2>FALE COM A <span>WALE SOLUTTE</span></h2>
+            <p>Atendimento via WhatsApp pelo número oficial<br>da Wale Solutte Automação Comercial.</p>
           </div>
         </div>
-        <div class="whatsapp-panel-numbers">
+
+        <div class="contact-block with-border">
+          <div class="small-icon"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 0 15.4 6.4L21 21l-1.4-2.6A9 9 0 1 0 3 12Zm5-1h8M8 15h5M8 7h8"/></svg></div>
           <div>
             <strong>Comercial / Suporte</strong>
-            <a href="tel:+5513981434489">(13) 98143-4489</a>
-            <small>De Segunda à Sexta, das 9h às 18h</small>
+            <a href="tel:+5513998067868">(13) 99806-7868</a>
+            <p>De Segunda à Sexta, das 9h às 18h</p>
           </div>
+        </div>
+
+        <div class="contact-block">
+          <div class="small-icon"><svg viewBox="0 0 24 24"><path d="M12 7v5l4 2M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20Z"/></svg></div>
           <div>
-            <strong>Suporte (Plantão após as 18h)</strong>
-            <a href="tel:+5513996924357">(13) 99692-4357</a>
-            <small>Atendimento fora do horário comercial</small>
+            <strong>Suporte / Plantão</strong>
+            <a href="tel:+5513998067868">(13) 99806-7868</a>
+            <p>Atendimento pelo número oficial</p>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="contact section-shell" id="contato">
-      <div class="container contact-grid">
-        <div class="contact-copy reveal">
-          <p class="eyebrow">Fale com a Wale Solutte</p>
-          <h2>Pronto para automatizar seu comércio?</h2>
-          <p>Envie uma mensagem e conte um pouco sobre sua empresa. A Wale Solutte retorna com uma orientação inicial para sua operação.</p>
-          <div class="contact-card active-whatsapp-card">
-            <strong>WhatsApp em atendimento agora</strong>
-            <span id="phoneLabel">Carregando telefone...</span>
-            <small id="phoneInfo">A troca entre Comercial/Suporte e Plantão é feita automaticamente conforme o horário.</small>
-          </div>
-
-          <div class="phone-grid">
-            <div class="phone-box">
-              <strong>Comercial / Suporte</strong>
-              <a class="phone-number" href="tel:+5513981434489">(13) 98143-4489</a>
-              <small>De Segunda à Sexta, das 9h às 18h</small>
-            </div>
-            <div class="phone-box">
-              <strong>Suporte (Plantão após as 18h)</strong>
-              <a class="phone-number" href="tel:+5513996924357">(13) 99692-4357</a>
-              <small>Atendimento fora do horário comercial</small>
-            </div>
-          </div>
-        </div>
-
-        <form class="contact-form reveal" id="contactForm">
-          <label>Nome
-            <input type="text" name="nome" placeholder="Seu nome" required>
-          </label>
-          <label>Empresa
-            <input type="text" name="empresa" placeholder="Nome da empresa">
-          </label>
-          <label>Segmento
-            <select name="segmento">
-              <option value="Restaurante / bar">Restaurante / bar</option>
-              <option value="Mercado / mercearia">Mercado / mercearia</option>
-              <option value="Loja / varejo">Loja / varejo</option>
-              <option value="Conveniência">Conveniência</option>
-              <option value="Outro segmento">Outro segmento</option>
-            </select>
-          </label>
-          <label>Mensagem
-            <textarea name="mensagem" rows="4" placeholder="Conte o que você precisa"></textarea>
-          </label>
-          <button class="btn btn-primary" type="submit"><span class="icon-whatsapp" aria-hidden="true"></span> Enviar pelo WhatsApp</button>
-        </form>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="site-footer">
     <div class="container footer-grid">
-      <div>
-        <img class="footer-logo" src="assets/img/wale-solutte-logo.jpeg" alt="Wale Solutte Automação Comercial">
-        <p>Soluções inteligentes que conectam tecnologia, gestão e resultados para impulsionar o seu negócio.</p>
+      <div class="footer-brand">
+        <img src="assets/img/wale-solutte-logo.jpeg" alt="Wale Solutte Automação Comercial">
+        <p>Soluções inteligentes que conectam<br>tecnologia, gestão e resultados para<br>impulsionar o seu negócio.</p>
       </div>
-      <div>
-        <h3>Navegação</h3>
-        <a href="#inicio">Início</a>
-        <a href="#solucoes">Soluções</a>
-        <a href="#segmentos">Segmentos</a>
-        <a href="#sobre">Sobre</a>
+
+      <div class="footer-col">
+        <h3>NAVEGAÇÃO</h3>
+        <div class="footer-links two-col">
+          <a href="#inicio">› Início</a>
+          <a href="#sobre">› Sobre</a>
+          <a href="#solucoes">› Soluções</a>
+          <a href="#contato">› Contato</a>
+          <a href="#segmentos">› Segmentos</a>
+        </div>
       </div>
-      <div>
-        <h3>Soluções</h3>
-        <a href="#solucoes">PDV</a>
-        <a href="#solucoes">Gestão comercial</a>
-        <a href="#solucoes">Controle de estoque</a>
-        <a href="#solucoes">Suporte técnico</a>
+
+      <div class="footer-col">
+        <h3>SOLUÇÕES</h3>
+        <div class="footer-links two-col">
+          <span>› PDV</span>
+          <span>› Relatórios</span>
+          <span>› Gestão Comercial</span>
+          <span>› Integrações</span>
+          <span>› Controle de Estoque</span>
+          <span>› Suporte Técnico</span>
+        </div>
       </div>
-      <div>
-        <h3>Fale conosco</h3>
-        <a class="js-whatsapp" href="#contato">WhatsApp automático</a>
-        <a href="tel:+5513981434489">Comercial / Suporte: (13) 98143-4489</a>
-        <span class="footer-text">De Segunda à Sexta, das 9h às 18h</span>
-        <a href="tel:+5513996924357">Suporte (Plantão após as 18h): (13) 99692-4357</a>
-        <span class="footer-text">O botão do WhatsApp direciona automaticamente conforme o horário.</span>
+
+      <div class="footer-col">
+        <h3>FALE CONOSCO</h3>
+        <div class="footer-contact">
+          <p>◔ Comercial / Suporte: (13) 99806-7868</p>
+          <p>◔ De Segunda à Sexta, das 9h às 18h</p>
+          <p>◔ Suporte / Plantão: (13) 99806-7868</p>
+          <p>◔ Atendimento via WhatsApp pelo número oficial<br>da Wale Solutte Automação Comercial.</p>
+        </div>
+      </div>
+
+      <div class="footer-col social-col">
+        <h3>SIGA-NOS</h3>
+        <div class="social-icons">
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+        </div>
       </div>
     </div>
-    <div class="container footer-bottom">© <span id="year"></span> Wale Solutte Automação Comercial. Todos os direitos reservados.</div>
+
+    <div class="copyright">© <span id="year"></span> Wale Solutte Automação Comercial. Todos os direitos reservados.</div>
   </footer>
 
   <script src="assets/js/main.js"></script>
