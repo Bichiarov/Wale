@@ -144,6 +144,11 @@ a{text-decoration:none;color:inherit}
   border:1px solid rgba(19,128,255,.62); border-radius:18px; background:linear-gradient(180deg, rgba(5,10,16,.96), rgba(2,6,11,.96));
   box-shadow:0 0 0 1px rgba(19,128,255,.12) inset, 0 18px 30px rgba(0,0,0,.35); overflow:hidden;
 }
+
+.contact-panel-single{grid-template-columns:1.45fr .75fr}
+.contact-only .small-icon svg{fill:#1196ff; stroke:none}
+.contact-only a{color:#16c8ff}
+
 .contact-info-main{display:flex; align-items:center; gap:18px; padding:18px 28px}
 .big-whats{width:62px; height:62px; border-radius:50%; display:grid; place-items:center; color:#0ed764; box-shadow:0 0 0 1px rgba(255,255,255,.04) inset}
 .big-whats svg{width:52px; height:52px; fill:#16db63}
