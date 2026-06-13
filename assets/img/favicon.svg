@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="blue" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#10d7ff"/>
+      <stop offset="45%" stop-color="#0477ff"/>
+      <stop offset="100%" stop-color="#1024d9"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#bfc6cf"/>
+      <stop offset="65%" stop-color="#686f78"/>
+      <stop offset="100%" stop-color="#f4f7fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="#020305"/>
+  <path d="M83 13a51 51 0 0 1 30 43h-15A36 36 0 0 0 82 29z" fill="url(#blue)"/>
+  <path d="M45 115a51 51 0 0 1-30-43h15a36 36 0 0 0 16 27z" fill="url(#silver)"/>
+  <path d="M14 73a51 51 0 0 1 36-57l5 14A36 36 0 0 0 28 72z" fill="url(#silver)"/>
+  <path d="M114 55a51 51 0 0 1-36 57l-5-14a36 36 0 0 0 27-42z" fill="url(#blue)"/>
+  <path d="M20 58h19l10 28 14-46h13l13 46 10-28h17L98 102H80L69 63l-12 39H39z" fill="url(#blue)"/>
+  <path d="M79 70h29c5 0 8 3 8 8s-3 8-8 8H86l-6 16h29c16 0 26-10 26-24s-10-24-26-24H85z" transform="translate(-12 0)" fill="url(#silver)" opacity=".95"/>
+</svg>
