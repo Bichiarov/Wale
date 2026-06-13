@@ -1,0 +1,96 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #020407;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.reference-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  overflow: auto;
+  background: #020407;
+}
+
+.reference-frame {
+  position: relative;
+  width: min(100vw, calc(100vh * 1672 / 941));
+  aspect-ratio: 1672 / 941;
+  line-height: 0;
+  background: #020407;
+}
+
+.reference-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  user-select: none;
+}
+
+.hotspot {
+  position: absolute;
+  display: block;
+  border-radius: 8px;
+  line-height: 1;
+  color: transparent;
+  overflow: hidden;
+  text-indent: -999px;
+}
+
+.hotspot:focus-visible {
+  outline: 2px solid #27a8ff;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(39, 168, 255, .22);
+}
+
+.nav-inicio { left: 33.9%; top: 2.15%; width: 4.4%; height: 5.1%; }
+.nav-solucoes { left: 38.7%; top: 2.15%; width: 6.3%; height: 5.1%; }
+.nav-segmentos { left: 45.8%; top: 2.15%; width: 6.9%; height: 5.1%; }
+.nav-suporte { left: 53.5%; top: 2.15%; width: 5.4%; height: 5.1%; }
+.nav-empresa { left: 59.8%; top: 2.15%; width: 5.8%; height: 5.1%; }
+.nav-contato { left: 66.0%; top: 2.15%; width: 5.3%; height: 5.1%; }
+.cta-orcamento { left: 74.1%; top: 2.25%; width: 10.5%; height: 4.4%; }
+
+.hero-solucoes { left: 16.7%; top: 31.0%; width: 10.2%; height: 4.2%; }
+.hero-especialista { left: 27.6%; top: 31.0%; width: 11.3%; height: 4.2%; }
+.overview-solucoes { left: 16.7%; top: 59.2%; width: 12.2%; height: 2.3%; }
+.overview-todas { left: 43.1%; top: 59.2%; width: 8.9%; height: 2.3%; }
+.suporte-link { left: 66.8%; top: 59.2%; width: 9.2%; height: 2.3%; }
+.segmentos-link { left: 35.2%; top: 78.2%; width: 8.4%; height: 2.2%; }
+.side-especialista { left: 67.2%; top: 75.5%; width: 12.1%; height: 4.1%; }
+.contato-whatsapp { left: 72.0%; top: 87.8%; width: 8.6%; height: 2.1%; }
+.contato-email { left: 72.0%; top: 90.5%; width: 10.9%; height: 2.1%; }
+.empresa-anchor { left: 60.4%; top: 82.3%; width: .1%; height: .1%; }
+
+@media (max-aspect-ratio: 1672 / 941) {
+  .reference-frame {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .reference-page {
+    place-items: start center;
+  }
+
+  .reference-frame {
+    width: 1180px;
+    max-width: none;
+  }
+}

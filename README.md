@@ -1,16 +1,22 @@
-# Wale Solutte - Site institucional
+# Wale Solutte - Layout Tecnológico Premium
 
-Site estático pronto para subir no GitHub Pages ou Netlify.
+Site institucional da Wale Solutte Automação Comercial.
+
+## Layout
+Opção 1 — Layout Tecnológico Premium.
 
 ## Estrutura
-- `index.html`
-- `assets/css/styles.css`
-- `assets/js/main.js`
-- `assets/img/*`
+- Cabeçalho fixo
+- Hero principal
+- Gestão inteligente
+- Cards de soluções
+- Suporte
+- Segmentos atendidos
+- Chamada para orçamento
+- Rodapé completo
 
-## Contato / WhatsApp
-O site usa apenas o contato oficial:
-- Contato: (13) 99806-7868
+## Contato
+WhatsApp: (13) 99806-7868
 
-Todos os botões de WhatsApp direcionam para esse número.
-Para alterar o número futuramente, edite `assets/js/main.js` e os textos do `index.html`.
+Todos os botões de contato direcionam para:
+https://wa.me/5513998067868
