@@ -1,22 +1,15 @@
-# Wale Solutte - Layout Tecnológico Premium
+# Wale Solutte - MisterCheff | Ajuste de CTA e Contato
 
-Site institucional da Wale Solutte Automação Comercial.
+Site responsivo da Wale Solutte para apresentação, configuração, orientação e suporte do sistema MisterCheff.
 
-## Layout
-Opção 1 — Layout Tecnológico Premium.
-
-## Estrutura
-- Cabeçalho fixo
-- Hero principal
-- Gestão inteligente
-- Cards de soluções
-- Suporte
-- Segmentos atendidos
-- Chamada para orçamento
-- Rodapé completo
+## Ajustes desta versão
+- Botão principal mantido como “Quero conhecer o MisterCheff”
+- Botão secundário alterado para “Ver funcionalidades”, evitando redundância
+- Telefone visível restaurado no campo de contato
+- Telefone visível restaurado no rodapé
 
 ## Contato
-WhatsApp: (13) 99806-7868
+(13) 99806-7868
 
-Todos os botões de contato direcionam para:
-https://wa.me/5513998067868
+## WhatsApp
+Os botões continuam direcionando para o WhatsApp oficial.
